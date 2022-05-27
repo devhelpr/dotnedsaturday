@@ -1,0 +1,62 @@
+[
+    {
+      "name": "StartApp",
+      "id": "StartApp",
+      "taskType": "StartApp",
+      "shapeType": "Html",
+      "x": 543,
+      "y": 425,
+      "htmlPlugin": "formNode",
+      "appType": "console",
+      "importSet": "none"
+    },
+    {
+      "name": "Return",
+      "id": "Return",
+      "taskType": "Return",
+      "shapeType": "Html",
+      "x": 1049,
+      "y": 420,
+      "htmlPlugin": "formNode",
+      "expression": "slider1*slider2+5",
+      "returnType": "float32"
+    },
+    {
+      "name": "connection-d7b04f16-0c69-47b5-9456-031c6a1921e2",
+      "taskType": "connection",
+      "shapeType": "Line",
+      "startshapeid": "StartApp",
+      "endshapeid": "Return",
+      "xstart": 843,
+      "ystart": 477,
+      "xend": 970,
+      "yend": 521,
+      "x": 1049,
+      "y": 420
+    },
+    {
+      "id": "UI",
+      "x": 151,
+      "y": 423,
+      "shapeType": "Html",
+      "name": "UI",
+      "taskType": "UI",
+      "metaInfo": [
+        {
+          "fieldId": "3827108e-53ce-40a3-b69a-553e68a5088a",
+          "fieldName": "slider1",
+          "fieldType": "slider",
+          "min": "0",
+          "max": "255"
+        },
+        {
+          "fieldId": "3e21d34e-9b38-4dac-89ae-1b71db98369e",
+          "fieldName": "slider2",
+          "fieldType": "slider",
+          "min": "0",
+          "max": "255"
+        }
+      ]
+    }
+  ]
+  
