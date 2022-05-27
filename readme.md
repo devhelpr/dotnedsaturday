@@ -9,3 +9,5 @@ wat2wasm memory.wat -o memory.wasm
 Zie https://wasmer.io
 
 wasmer wasi.wasm
+
+Project requirements: http server zoals https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer
