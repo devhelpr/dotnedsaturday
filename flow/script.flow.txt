@@ -1,0 +1,13 @@
+debug: "UI";
+
+input slider1;
+input slider2;
+
+function initApp() {
+    return 0;
+};
+
+debug: "StartApp";
+
+debug: "Return";
+return slider1+slider2;
